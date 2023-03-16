@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+.sidebarcontainer {
+  width: 25%;
+  padding: 0 20px;
+}
+
+.content-container {
+  width: 75%;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .sidebar-container {
+    width: 100%;
+  }
+  .content-container {
+    width: 100%;
+  }
+}
